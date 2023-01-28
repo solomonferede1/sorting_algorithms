@@ -5,7 +5,7 @@
   */
 void insertion_sort_list(listint_t **list)
 {
-	for (i = 1; list->next; listint_t *current, *swap, *prv;
+	listint_t *current, *swap, *prv;
 
 	if (!list || !*list)
 		return;
