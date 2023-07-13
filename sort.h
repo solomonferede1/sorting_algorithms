@@ -28,6 +28,7 @@ size_t partition(int array[], size_t size);
 void print_sort(int array[], size_t size, int init);
 void swap(int *a, int *b);
 void shell_sort(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
 void heapify(int *array, int end, int start, size_t size);
 
 #endif /* SORT_H */
